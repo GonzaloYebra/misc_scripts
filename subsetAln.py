@@ -25,4 +25,4 @@ align = AlignIO.read(infile, "fasta")
 records = align[:,start+1:stop+1]
 
 # export output alignment
-SeqIO.write(records, outfileName, "fasta")
+SeqIO.write(records, outfile, "fasta")
