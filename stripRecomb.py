@@ -2,7 +2,7 @@
 
 """
 This script strips regions of a fasta alignment based on the 
-provided coordinates 
+coordinates provided in a tab-delimited file (start	end)
 
 Usage:
 	python subsetAln.py input_alignment output_alignment coordinates
